@@ -1,7 +1,9 @@
+```py
 from selenium import webdriver
 import time
 # ChromeDriver'ı kullanarak Chrome tarayıcısını başlat
 driver = webdriver.Chrome("E:\Python\selenium_instagram\chromedriver.exe")
+
 
 # Web sayfasını aç
 driver.get("https://www.kawin.store")
@@ -58,3 +60,4 @@ worksheet.write(0,3,"Nitelik")
 
 
 workbookyazdirma.close()
+```
